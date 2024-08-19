@@ -1,0 +1,295 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+	background-color: black
+}
+.clr{ clear: both;}
+
+.main-container
+{
+	width: 100%;
+	height: 100vh;
+	
+}
+
+.head-part
+{
+	width: 100%;
+	height: auto;
+	margin-top: 1px;
+	
+}
+.logo{
+	border: 2px solid rgb(230, 15, 8);
+	width: 140px;
+	height: auto;
+	float: left;
+	border-radius: 14px;
+	margin-top: 0px;
+	height: 40px;
+	margin-left: 5%;
+
+}
+.logo p{
+	color: #fff;
+	align-items: center;
+	text-align: center;
+	font-size: larger;
+	font-weight: bold;
+	
+}
+.logo p::first-letter{
+	text-transform: uppercase;
+	color: rgb(250, 4, 4);
+	font-family:'Segoe UI';
+	font-size: x-large;
+
+}
+
+.navigation{
+	margin-left:250px ;
+	height: auto;
+	text-align: center;
+	align-items: center;
+	margin-top: 1%;
+}
+
+.navigation ul{
+	list-style-type: none;
+	display: inline-flex;
+	text-decoration: none;
+}
+
+.navigation ul li{
+	text-decoration: none;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: x-large;
+	padding-right: 20px;
+}
+.navigation ul li a{
+	text-decoration: none;
+	font-size: 1em;
+	color: white;
+	
+
+}
+
+.navigation ul li a:hover{
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-transform: uppercase;
+	color: rgb(9, 234, 241);
+	text-decoration-thickness: 2px;
+
+	font-family: Arial;
+}
+.navigation ul li a:active{
+	color: blue;
+}
+
+
+.main
+{
+	
+	margin-top: 1px;
+	width: 100%;
+	height: 400px;
+	
+}
+
+.content
+{
+	width: 45%;
+	margin-top: 5%;
+	height: 400px;
+	float: left;
+	text-align: center;
+	align-content: center;
+	
+
+}
+.content p,h1
+{
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	align-items: center;
+	margin-top: 50px;
+	font-size: 2em;
+	
+}
+.content h1{
+	font-size: 3em;
+	color:rgba(247, 203, 10, 0.952);
+}
+
+.content span{
+	color:rgb(48, 18, 218);
+}
+
+
+.picture
+{
+	margin-top: 6%;
+	height: 400px;
+	align-items: center;
+	text-align: center;
+	float: right;
+}
+.picture img
+{
+	height: 390px;
+	margin-left: -100%;
+	
+}
+
+
+.ps
+{
+	background:linear-gradient(to left, blue,rgb(206, 14, 14));
+	height: auto;
+	color: white;
+	margin-top:2%;
+	
+}
+.ps h3{
+	color: yellow;
+}
+.ps li{
+	
+	color: #fff;
+	list-style-type: none;
+	align-items: center;
+	text-align: center;
+}
+
+#Web{ 
+	margin-left: 3%;
+	width:300px ;
+	text-align: center;
+	align-items: center;
+	margin-right:14px ;
+	line-height: 28px;
+	height: 100%;
+	float: left;
+}
+
+#Software{ 
+	width:300px ;
+	text-align: center;
+	align-items: center;
+	margin-right:14px ;
+	line-height: 28px;
+	height: 100%;
+	float: left;
+}
+
+#Hardware{ 
+	width: 300px;
+	text-align: center;
+	align-items: center;
+	margin-right:14px ;
+	
+	height: 100%;
+	float: left;
+	line-height: 28px;
+}
+#Networking{ 
+	width:300px ;
+	text-align: center;
+	align-items: center;
+	margin-right:7px ;
+	
+	height: 100%;
+	float: left;
+	line-height: 28px;
+}
+#Database{ 
+	width:300px ;
+	text-align: center;
+	align-items: center;
+	margin-right:7px ;
+	
+	height: 100%;
+	float: left;
+	line-height: 28px;
+}
+
+/***   ABOUT PAGE ****/
+.about
+{
+	height:100vh;
+	
+
+
+}
+.about p
+{
+	color: #fff;
+	line-height:30px;
+	font-size: 1.5em;
+	text-align: center;
+	
+}
+.marquee {
+	font-size: larger;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about h1{
+	color: yellow;
+}
+
+
+/** CONTACT AREA  */
+.contact a{
+	color: orangered;
+}
+
+
+/**  responsive **/
+@media (max-width:600px)
+{
+	.logo{
+		background-color: rgb(56, 53, 53);
+		width: 30%;
+		margin-left: 0%;
+	}
+	.navigation{
+		margin-top: 5%;
+		margin-left: 0%;
+			
+	}
+	.navigation ul li a{
+		font-size: large;
+	}
+
+	.main{
+		width: 100%;
+	}
+	.content{width: 60%;
+		 margin-left: 24%; 
+		}
+		.content p{
+			font-size: 1.5em;
+		}
+		.content h1{
+			font-size: 2em;
+		}
+
+		.picture{
+			margin-left: 0%;
+			margin-top: 25%;
+			margin-right: -50%;
+
+		}
+		.ps{
+			
+			margin-left: 14%;
+		}
+		
+}
+
